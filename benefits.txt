@@ -1,0 +1,40 @@
+{/* Benefits Section */}
+            <section className="py-16">
+                <h2 className="text-3xl font-bold text-center text-blue-800 mb-8">
+                    Why Choose GlobePay?
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+                    {/* Benefit 1 */}
+                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div className="text-4xl mb-4">💸</div>
+                        <h3 className="text-xl font-semibold text-blue-600 mb-2">Low Fees</h3>
+                        <p className="text-gray-600">
+                            Save more with our competitive rates—no hidden charges.
+                        </p>
+                    </div>
+                    {/* Benefit 2 */}
+                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div className="text-4xl mb-4">⚡</div>
+                        <h3 className="text-xl font-semibold text-blue-600 mb-2">Fast Transfers</h3>
+                        <p className="text-gray-600">
+                            Send money instantly to over 100 countries.
+                        </p>
+                    </div>
+                    {/* Benefit 3 */}
+                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div className="text-4xl mb-4">🔒</div>
+                        <h3 className="text-xl font-semibold text-blue-600 mb-2">Secure Payments</h3>
+                        <p className="text-gray-600">
+                            Your transactions are protected with top-tier encryption.
+                        </p>
+                    </div>
+                    {/* Benefit 4 */}
+                    <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div className="text-4xl mb-4">🌍</div>
+                        <h3 className="text-xl font-semibold text-blue-600 mb-2">Global Support</h3>
+                        <p className="text-gray-600">
+                            24/7 customer support in multiple languages.
+                        </p>
+                    </div>
+                </div>
+            </section>
